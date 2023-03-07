@@ -13,13 +13,14 @@
   &:hover,
   &:focus {
     background-color: var(--accent-color);
-
-    .social-links-icon {
-      fill: var(--logo-text-color-theme-dark);
-    }
   }
 }
 
 .social-links-icon {
   transition: fill var(--animation-duration) var(--animation-timing-function);
+
+  .social-links-link:hover &,
+  .social-links-link:focus & {
+    fill: var(--logo-text-color-theme-dark);
+  }
 }

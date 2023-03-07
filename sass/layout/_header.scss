@@ -25,10 +25,6 @@
   &:hover,
   &:focus {
     color: var(--accent-color);
-
-    .header-contact-icons {
-      fill: var(--accent-color);
-    }
   }
 }
 
@@ -37,6 +33,11 @@
   fill: var(--secondary-text-color-theme-light);
 
   transition: fill var(--animation-duration) var(--animation-timing-function);
+
+  .header-contact-list-link:hover &,
+  .header-contact-list-link:focus & {
+    fill: var(--accent-color);
+  }
 }
 
 .contact-list-link {

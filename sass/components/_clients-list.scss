@@ -22,10 +22,6 @@
   &:hover,
   &:focus {
     border: 1px solid var(--accent-color);
-
-    .clients-logo-icons {
-      fill: var(--accent-color);
-    }
   }
 }
 
@@ -33,4 +29,9 @@
   fill: #afb1b8;
 
   transition: fill var(--animation-duration) var(--animation-timing-function);
+
+  .clients-list-link:hover &,
+  .clients-list-link:focus & {
+    fill: var(--accent-color);
+  }
 }

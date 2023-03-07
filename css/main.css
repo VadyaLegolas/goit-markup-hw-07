@@ -234,13 +234,13 @@ address {
 .social-links-link:hover, .social-links-link:focus {
   background-color: var(--accent-color);
 }
-.social-links-link:hover .social-links-icon, .social-links-link:focus .social-links-icon {
-  fill: var(--logo-text-color-theme-dark);
-}
 
 .social-links-icon {
   -webkit-transition: fill var(--animation-duration) var(--animation-timing-function);
   transition: fill var(--animation-duration) var(--animation-timing-function);
+}
+.social-links-link:hover .social-links-icon, .social-links-link:focus .social-links-icon {
+  fill: var(--logo-text-color-theme-dark);
 }
 
 .logo-footer {
@@ -433,14 +433,14 @@ address {
   width: 30px;
   height: 30px;
 }
-.close-button:hover .icon-close-modal, .close-button:focus .icon-close-modal {
-  fill: var(--accent-color);
-}
 
 .icon-close-modal {
   fill: #000000;
   -webkit-transition: fill var(--animation-duration) var(--animation-timing-function);
   transition: fill var(--animation-duration) var(--animation-timing-function);
+}
+.close-button:hover .icon-close-modal, .close-button:focus .icon-close-modal {
+  fill: var(--accent-color);
 }
 
 .contact-form-field {
@@ -537,9 +537,6 @@ address {
   outline: none;
   border-color: var(--accent-color);
 }
-.contact-form-input:hover + .contact-form-input-icon, .contact-form-input:focus + .contact-form-input-icon {
-  fill: var(--accent-color);
-}
 
 .contact-form-input-wrapper {
   position: relative;
@@ -555,6 +552,9 @@ address {
   fill: var(--primary-text-color-theme-light);
   -webkit-transition: fill var(--animation-duration) var(--animation-timing-function);
   transition: fill var(--animation-duration) var(--animation-timing-function);
+}
+.contact-form-input:hover + .contact-form-input-icon, .contact-form-input:focus + .contact-form-input-icon {
+  fill: var(--accent-color);
 }
 
 .contact-form-checkbox-label {
@@ -583,7 +583,6 @@ address {
   content: "";
   cursor: pointer;
 }
-
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before, .contact-form-checkbox:hover + .contact-form-checkbox-label::before {
   /* border-color: var(--accent-color); */
   outline: 1px solid var(--accent-color);
@@ -670,15 +669,15 @@ address {
 .header-contact-list-link:hover, .header-contact-list-link:focus {
   color: var(--accent-color);
 }
-.header-contact-list-link:hover .header-contact-icons, .header-contact-list-link:focus .header-contact-icons {
-  fill: var(--accent-color);
-}
 
 .header-contact-icons {
   margin-right: 10px;
   fill: var(--secondary-text-color-theme-light);
   -webkit-transition: fill var(--animation-duration) var(--animation-timing-function);
   transition: fill var(--animation-duration) var(--animation-timing-function);
+}
+.header-contact-list-link:hover .header-contact-icons, .header-contact-list-link:focus .header-contact-icons {
+  fill: var(--accent-color);
 }
 
 .contact-list-link {
@@ -874,14 +873,14 @@ address {
 .clients-list-link:hover, .clients-list-link:focus {
   border: 1px solid var(--accent-color);
 }
-.clients-list-link:hover .clients-logo-icons, .clients-list-link:focus .clients-logo-icons {
-  fill: var(--accent-color);
-}
 
 .clients-logo-icons {
   fill: #afb1b8;
   -webkit-transition: fill var(--animation-duration) var(--animation-timing-function);
   transition: fill var(--animation-duration) var(--animation-timing-function);
+}
+.clients-list-link:hover .clients-logo-icons, .clients-list-link:focus .clients-logo-icons {
+  fill: var(--accent-color);
 }
 
 .footer {
@@ -1034,10 +1033,6 @@ address {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.projects-card-link:hover .thumb-paragraph, .projects-card-link:focus .thumb-paragraph {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-}
 
 .projects-thumb {
   position: relative;
@@ -1063,4 +1058,8 @@ address {
   transition: -webkit-transform var(--animation-duration) var(--animation-timing-function);
   transition: transform var(--animation-duration) var(--animation-timing-function);
   transition: transform var(--animation-duration) var(--animation-timing-function), -webkit-transform var(--animation-duration) var(--animation-timing-function);
+}
+.projects-card-link:hover .thumb-paragraph, .projects-card-link:focus .thumb-paragraph {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }/*# sourceMappingURL=main.css.map */
