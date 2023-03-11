@@ -1,7 +1,5 @@
 .footer-social-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  @include font(14px, 700, 16px);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-text-color-theme-dark);
