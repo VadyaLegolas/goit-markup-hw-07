@@ -127,7 +127,7 @@ address {
   margin-right: 0;
 }
 
-.logo_first-letters {
+.logo-first-letters {
   color: var(--accent-color);
 }
 
@@ -734,7 +734,7 @@ address {
   color: var(--secondary-text-color-theme-light);
 }
 
-.about-list__icon {
+.about-list__icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
