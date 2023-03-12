@@ -4,12 +4,12 @@
   align-items: center;
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 40px;
 }
 
-.nav-list-link,
-.header-contact-list-link {
+.nav-list__link {
+  position: relative;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -18,28 +18,26 @@
   color: var(--primary-text-color-theme-light);
 
   transition: color var(--animation-duration) var(--animation-timing-function);
-}
-
-.nav-list-link {
-  position: relative;
 
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
-}
 
-.active-page {
-  color: var(--accent-color);
+  &_active-page {
+    color: var(--accent-color);
 
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    background-color: var(--accent-color);
-    border-radius: 2px;
-    bottom: -1px;
-    left: 0;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      border-radius: 2px;
+      bottom: -1px;
+      left: 0;
+    }
   }
 }
+
+

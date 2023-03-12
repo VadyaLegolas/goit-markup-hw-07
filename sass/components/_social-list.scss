@@ -1,4 +1,4 @@
-.social-links-link {
+.social-links-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,11 +16,11 @@
   }
 }
 
-.social-links-icon {
+.social-links-list__icon {
   transition: fill var(--animation-duration) var(--animation-timing-function);
 
-  .social-links-link:hover &,
-  .social-links-link:focus & {
+  .social-links-list__link:hover &,
+  .social-links-list__link:focus & {
     fill: var(--logo-text-color-theme-dark);
   }
 }

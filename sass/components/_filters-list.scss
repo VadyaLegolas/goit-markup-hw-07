@@ -4,11 +4,11 @@
   margin-bottom: 50px;
 }
 
-.filters-list-item:not(:last-child) {
+.filters-list__item:not(:last-child) {
   margin-right: 8px;
 }
 
-.filter-button {
+.filters-list__button {
   min-height: 38px;
   padding: 6px 22px;
   border: none;

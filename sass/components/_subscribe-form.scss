@@ -4,7 +4,7 @@
   margin-left: auto;
 }
 
-.subscribe-form-wrapper {
+.subscribe-form__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@
   color: var(--primary-text-color-theme-dark);
 }
 
-.subscribe-form-input {
+.subscribe-form__input {
   width: 358px;
   height: 50px;
   padding: 15px 16px;
@@ -49,7 +49,7 @@
   }
 }
 
-.subscribe-form-btn {
+.subscribe-form__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,7 +74,7 @@
   }
 }
 
-.subscribe-icon {
+.subscribe-form__icon {
   margin-left: 10px;
   fill: var(--primary-background-color);
 }

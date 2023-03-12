@@ -4,12 +4,12 @@
   gap: 30px;
 }
 
-.portfolio-list-item {
+.portfolio-list__item {
   position: relative;
   flex-basis: calc((100% - 90px) / 3);
 }
 
-.portfolio-text {
+.portfolio-list__text {
   position: absolute;
   left: 0;
   bottom: 0;

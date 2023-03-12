@@ -4,11 +4,11 @@
   gap: 30px;
 }
 
-.clients-list-item {
+.clients-list__item {
   flex-basis: calc((100% - 180px) / 6);
 }
 
-.clients-list-link {
+.clients-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,13 +25,13 @@
   }
 }
 
-.clients-logo-icons {
+.clients-list__logo-icons {
   fill: #afb1b8;
 
   transition: fill var(--animation-duration) var(--animation-timing-function);
 
-  .clients-list-link:hover &,
-  .clients-list-link:focus & {
+  .clients-list__link:hover &,
+  .clients-list__link:focus & {
     fill: var(--accent-color);
   }
 }

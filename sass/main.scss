@@ -6,25 +6,26 @@
 @import './base/container';
 @import './base/section';
 @import './base/background-dark';
+
+@import './layout/header';
+@import './layout/hero';
+
 @import './components/logo';
 @import './components/navigation';
+@import './components/header-contact-list';
 @import './components/main-title';
 @import './components/title-section';
 @import './components/modal-btn';
 @import './components/social-links-list';
 @import './components/social-list';
-@import './components/logo-footer';
 @import './components/subscribe-form';
 @import './components/backdrop';
 @import './components/modal-window';
 
-@import './layout/header';
-@import './layout/hero';
 @import './layout/about';
 @import './layout/portfolio';
 
 @import './components/contacts';
-@import './components/contacts-list';
 @import './components/clients-list';
 
 @import './layout/footer';
@@ -34,5 +35,4 @@
 
 @import './components/filters-list';
 @import './components/project-list';
-@import './components/projects';
-@import './components/projects-card';
+@import './components/projects-thumb';
